@@ -90,13 +90,6 @@ const CalendarScreen = (props: any) => {
 
     };
 
-    const formattedDateRange =() =>{
-        return <div dangerouslySetInnerHTML={{ __html: currentWeek }} />
-    }
-
-  
-    
-
     const renderCalendar = (eventData: any) => {
         return (
             <>

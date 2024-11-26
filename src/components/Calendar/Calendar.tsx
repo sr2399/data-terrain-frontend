@@ -219,7 +219,7 @@ const CalendarScreen = (props: any) => {
                     }}
                     height="auto"
                     slotMinTime="10:00:00"
-                    slotMaxTime="22:00:00"
+                    slotMaxTime="19:00:00"
                     allDaySlot={false}
                     slotDuration="00:60:00"  
                     datesSet={handleDate}
